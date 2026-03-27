@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "sopbenur2",
+    "name": "SOPP-Benur CAK",
     "slug": "sopbenur2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo_soppbenur22.png",
     "scheme": "sopbenur2",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
@@ -19,7 +18,10 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.jakiron12.sopbenur2",
+      "permissions": ["INTERNET", "CAMERA", "WRITE_EXTERNAL_STORAGE"],
+      "newArchEnabled": true
     },
     "web": {
       "output": "static",
@@ -27,10 +29,11 @@
     },
     "plugins": [
       "expo-router",
+      "expo-file-system",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/logo_soppbenur2.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
@@ -38,11 +41,18 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f9f5590c-9094-4540-a81a-b2ae59050949"
+      }
     }
   }
 }
