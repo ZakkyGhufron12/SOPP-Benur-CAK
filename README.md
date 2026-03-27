@@ -12,6 +12,3 @@ Aplikasi mobile berbasis **React Native** yang dirancang untuk monitoring budida
 * **Backend**: Supabase
 * **AI Model**: YOLOv12
 * **Language**: TypeScript / JavaScript
-
-### 📱 Preview
-(Kamu bisa upload screenshot aplikasi kamu di sini agar HRD bisa melihat "Hasil Nyata" secara visual)
